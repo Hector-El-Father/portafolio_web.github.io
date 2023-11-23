@@ -1,0 +1,18 @@
+/* Agrega tus estilos personalizados aquí */
+
+body {
+    padding-top: 56px; /* Altura de la barra de navegación */
+    background-color: #CAD2C5;
+}
+
+section {
+    padding: 60px 0;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#proyectos{
+    background-color: #52796F;
+}
