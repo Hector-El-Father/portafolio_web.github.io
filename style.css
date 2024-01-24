@@ -1,0 +1,22 @@
+/* Agrega tus estilos personalizados aquí */
+
+body {
+    padding-top: 56px; /* Altura de la barra de navegación */
+    background-color: #fcffff;
+}
+
+section {
+    padding: 60px 0;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#proyectos{
+    background-color: #84b6f4;
+}
+/* En tu archivo CSS externo */
+.carousel-control-black {
+    color: black !important; /* Utilizamos !important para asegurar que estos estilos se apliquen */
+}
