@@ -2,7 +2,7 @@
 
 body {
     padding-top: 56px; /* Altura de la barra de navegación */
-    background-color: #CAD2C5;
+    background-color: #fcffff;
 }
 
 section {
@@ -14,5 +14,21 @@ img.img-fluid {
     height: auto;
 }
 #proyectos{
-    background-color: #52796F;
+    background-color: #84b6f4;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 16px; /* Tamaño del texto */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    margin-top: auto; /* Centrar verticalmente */
+    margin-bottom: auto; /* Centrar verticalmente */
+    background-color: #333;
+}
+
+/* Cambia el tamaño en hover y oscurece el color */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    font-size: 30px; /* Tamaño del texto al pasar el ratón por encima */
+    opacity: 0.9; /* Opacidad al pasar el ratón por encima */
 }
