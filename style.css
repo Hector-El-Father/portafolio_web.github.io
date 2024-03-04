@@ -32,3 +32,6 @@ img.img-fluid {
     font-size: 30px; /* Tamaño del texto al pasar el ratón por encima */
     opacity: 0.9; /* Opacidad al pasar el ratón por encima */
 }
+a{
+    color: black;
+}
