@@ -1,8 +1,23 @@
 /* Agrega tus estilos personalizados aquí */
-
+*{
+    font-family: "Gothic Demi Cond", sans-serif;
+}
 body {
     padding-top: 56px; /* Altura de la barra de navegación */
     background-color: #fcffff;
+}
+#fondo{
+    background-image: url(1AtardecerPacifico_1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "Gothic Demi Cond", sans-serif;
+}
+#about-me{
+    text-align: justify;
+}
+#sobre-mi{
+    text-align: justify;
 }
 
 section {
@@ -15,6 +30,7 @@ img.img-fluid {
 }
 #proyectos{
     background-color: #84b6f4;
+    text-align: justify;
 }
 .carousel-control-prev,
 .carousel-control-next {
