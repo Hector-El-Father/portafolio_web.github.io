@@ -51,3 +51,12 @@ img.img-fluid {
 a{
     color: black;
 }
+.card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
